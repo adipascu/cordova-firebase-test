@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget android-versionCode="2005" id="test.app" version="0.5.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Firebase test</name>
+    <description>
+        A sample Apache Cordova application that responds to the deviceready event.
+    </description>
+    <author email="mail@xxx.com" href="https://xxx.com">
+        Adrian Pascu
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <preference name="AppendUserAgent" value="Cordova" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+        <preference name="android-minSdkVersion" value="19" />
+    </platform>
+    <plugin name="cordova-plugin-firebase" spec="https://github.com/arnesson/cordova-plugin-firebase.git#pull/1011/head" />
+    <engine name="android" spec="^8.0.0" />
+</widget>
