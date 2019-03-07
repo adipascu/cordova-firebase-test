@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "postinstall": "mkdir www; cordova prepare",
+    "postinstall": "cordova prepare",
     "start": "cordova run android"
   },
   "devDependencies": {
